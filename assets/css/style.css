@@ -22,6 +22,7 @@
 @media screen and (min-width: 768px){
     :root{
         --big-font-size: 3.5rem;
+        --same-font-size: 3rem;
         --h2-font-size: 2rem;
         --normal-font-size: 1rem;
     }
@@ -194,6 +195,7 @@
     align-self: center;
 }
 .home__title{
+    width: 50%;
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-5);
 }
